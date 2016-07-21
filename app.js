@@ -16,5 +16,5 @@ app.post('/upload', upload.single('fileUpload'), function(req, res) {
 });
 
 app.listen(8080, function() {
-  console.log('Image Search Server listening on port 8080!');
+  console.log('File Metadata Server listening on port 8080!');
 });
